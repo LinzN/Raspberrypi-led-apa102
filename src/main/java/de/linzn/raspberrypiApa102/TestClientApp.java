@@ -61,15 +61,15 @@ public class TestClientApp {
         pulsingLEDRing.setLED(0, new LED(0, 95, 255));
         pulsingLEDRing.setLED(1, new LED(0, 0, 255));
         pulsingLEDRing.setLED(2, new LED(0, 95, 255));
-        pulsingLEDRing.setLED(3, new LED(10, 10, 10));
-        pulsingLEDRing.setLED(4, new LED(10, 10, 10));
-        pulsingLEDRing.setLED(5, new LED(10, 10, 10));
+        pulsingLEDRing.setLED(3, new LED(255, 255, 255));
+        pulsingLEDRing.setLED(4, new LED(255, 255, 255));
+        pulsingLEDRing.setLED(5, new LED(255, 255, 255));
         pulsingLEDRing.setLED(6, new LED(0, 95, 255));
         pulsingLEDRing.setLED(7, new LED(0, 0, 255));
         pulsingLEDRing.setLED(8, new LED(0, 95, 255));
-        pulsingLEDRing.setLED(9, new LED(10, 10, 10));
-        pulsingLEDRing.setLED(10, new LED(10, 10, 10));
-        pulsingLEDRing.setLED(11, new LED(10, 10, 10));
+        pulsingLEDRing.setLED(9, new LED(255, 255, 255));
+        pulsingLEDRing.setLED(10, new LED(255, 255, 255));
+        pulsingLEDRing.setLED(11, new LED(255, 255, 255));
         ledManager.addLEDRing("RECORDING", pulsingLEDRing);
 
         LEDRing noneRing = new RotatingRing(12, 20);
